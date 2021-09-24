@@ -27,3 +27,47 @@ After you have clicked on the Binder-button on the upper right, the virtual envi
 After the environment is ready to use you can go into folder structure:
 
 ![img](./_images/folders.png)
+
+ and click the page/notebook of your choice:
+
+![img](./_images/files.png)
+
+This will open an editable and executable *Jupyter Notebook* into your browser:
+
+![img](./_images/execpoem.png)
+
+### Editing Jupyter Notebooks 
+
+*Parts of the following introduction are modified from [Allison Parrish's Python-Intro-Notebooks](https://github.com/aparrish/dmep-python-intro) < thanx Allison!* 
+
+
+An [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) consists of a number of “cells,” stacked on the page from top to bottom. Cells can have text or code in them. You can change a cell’s type using the “Cell” menu at the top of the page; go to `Cell > Cell Type` and select either `Code` for Python code or `Markdown` for text. (You can also change this for the current cell using the drop-down menu in the toolbar.)
+
+#### Text cells
+
+Make a new cell, change its type to `Markdown`, type some stuff and press `Ctrl-Enter`. Jupyter Notebook will “render” the text and display it on the page in rendered format. You can hit `Enter` or click in the cell to edit its contents again. Text in `Markdown` cells is rendered according to a set of conventions called Markdown. Markdown is a simple language for marking up text with basic text formatting information (such as bold, italics, hyperlinks, tables, etc.).
+
+See also the Jupyter Notebook in the Experimental Informatics Github Repo: [Markdown-basics.ipynb](https://github.com/experimental-informatics/hands-on-python/blob/master/Markdown-basics.ipynb).
+#### Code cells
+
+You can also press `Alt-Enter` to render the current cell and create a new cell. 
+
+New cells will by default be `Code` cells, as follows:
+
+```python
+print("This is a code cell.")
+print("")
+print("Any Python code you type in this cell will be run when you press the 'Run' button,")
+print("or when you press Ctrl-Enter.")
+print("")
+print("If the code evaluates to something, or if it produces output, that output will be")
+print("shown beneath the cell after you run it.")
+```
+> This is a code cell.
+
+> Any Python code you type in this cell will be run when you press the 'Run' button,or when you press Ctrl-Enter.
+
+> If the code evaluates to something, or if it produces output, that output will be shown beneath the cell after you run it.
+
+
+
