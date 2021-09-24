@@ -65,9 +65,24 @@ print("shown beneath the cell after you run it.")
 ```
 > This is a code cell.
 
-> Any Python code you type in this cell will be run when you press the 'Run' button,or when you press Ctrl-Enter.
+> Any Python code you type in this cell will be run when you press the 'Run' button,
+> or when you press Ctrl-Enter.
 
-> If the code evaluates to something, or if it produces output, that output will be shown beneath the cell after you run it.
+> If the code evaluates to something, or if it produces output, that output will be 
+> shown beneath the cell after you run it.
 
+#### Keyboard shortcuts
 
+As mentioned above, `Ctrl-Enter` runs the current cell; `Alt-Enter` runs the current cell and then creates a new cell. `Enter` will start editing whichever cell is currently selected. To quit editing a cell, hit `Esc`. If the cursor isn't currently active in any cell (i.e., after you've hit `Esc`), a number of other keyboard shortcuts are available to you:
+
+* `m` converts the selected cell to a Markdown cell
+* `b` inserts a new cell below the selected one
+* `x` "cuts" the selected cell; `c` "copies" the selected cell; `v` pastes a previously cut cell below the selected cell
+* `h` brings up a help screen with many more shortcuts.
+
+#### Saving your expanded version
+
+Please note that none of the changes you make in Binder will be saved. If you do make changes or notes, you will need to download the notebook to your own computer by clicking `File > Download as` > `Notebook.ipynb`.
+
+If you run *Jupyter Notebook* locally, then just hit `Cmd-S` at any time to save your notebook. Jupyter Notebook also automatically saves occasionally. Make sure to give your notebook a descriptive title by clicking on “Untitled0” at the top of the page and replacing the text accordingly. Notebooks you save will be available on your server whenever you log in again, from wherever you log into the server.
 
