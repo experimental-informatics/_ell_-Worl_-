@@ -10,10 +10,8 @@ This is the code repository to the executable artistic research paper [The rule 
 
 “*Executable*” *paper* means, that all the code in the paper was executed to produce this paper and can be executed as well. 
 
---------------------
-To read how to expand the code and play with it, please click the button below and you will be directed to Binder:<br><br>
+To expand the code and play with it, please click the button below and you will be directed to Binder:<br><br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/experimental-informatics/_ell_-Worl_-/HEAD)
----------------------
 
 ## How to code in Binder?
 
